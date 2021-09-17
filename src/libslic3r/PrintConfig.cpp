@@ -1332,7 +1332,7 @@ void PrintConfigDef::init_fff_params()
         "\nIf using marlin, M220 B/R is used to save the speed override before the wipe tower print.");
     def->sidetext = L("%");
     def->min = 0;
-    def->max = 200;
+    def->max = 600;
     def->mode = comExpert;
     def->is_vector_extruder = true;
     def->set_default_value(new ConfigOptionFloats { 0 });
